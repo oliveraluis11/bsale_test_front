@@ -1,0 +1,29 @@
+h2 {
+    font-weight: 500;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    background-color: dodgerblue;
+    color: #f5f3f3;
+}
+
+td,
+th {
+    border: 1px dotted #f5f3f3;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f3f3;
+}
+
+td:nth-child(3) {
+    text-align: center;
+}
